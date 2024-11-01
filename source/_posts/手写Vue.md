@@ -7,7 +7,7 @@ tags:
     - 手写
 categories:
     - [前端, Vue]
-index_img: https://img.zphl.top/blog/articleImg/VUE.JS.jpeg
+index_img: https://img.lzphl.top/blog/articleImg/VUE.JS.jpeg
 excerpt: 一把键盘，一个夜晚，一个奇迹
 link: /posts/vue2.html
 ---

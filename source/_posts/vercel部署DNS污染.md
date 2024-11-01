@@ -3,7 +3,7 @@ title: vercel DNS污染解决方法
 date: 2024-06-14 11:48:39
 tags: [vercel, 后端]
 categories: [后端]
-index_img: https://img.zphl.top/blog/articleImg/vercel.webp
+index_img: https://img.lzphl.top/blog/articleImg/vercel.webp
 link: /posts/vercel部署.html
 ---
 

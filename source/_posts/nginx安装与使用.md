@@ -7,7 +7,7 @@ tags:
     - 运维
 categories:
     - [后端]
-index_img: https://img.zphl.top/blog/articleImg/nginx.jpg
+index_img: https://img.lzphl.top/blog/articleImg/nginx.jpg
 excerpt: nginx的安装与相关配置
 link: /posts/nginx.html
 ---

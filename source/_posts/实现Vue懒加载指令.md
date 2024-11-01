@@ -9,8 +9,8 @@ tags:
 categories:
     - [前端, Vue]
 excerpt: 手把手实现Vue懒加载指令v-lazy😍
-index_img: https://img.zphl.top/blog/articleImg/loading1.gif
-banner_img: https://img.zphl.top/blog/bg/bg.jpg
+index_img: https://img.lzphl.top/blog/articleImg/loading1.gif
+banner_img: https://img.lzphl.top/blog/bg/bg.jpg
 permalink: /posts/vue-v-lazy.html
 ---
 
