@@ -3,6 +3,7 @@ title: about
 date: 2024-06-13 11:29:37
 layout: about
 ---
+
    <style>
         .about-skill {
             width: 100%;
@@ -172,6 +173,54 @@ layout: about
                     </div>
                     <div class="project-desc">
                         一个登录界面demo，使用 animate.css 实现动画效果。
+                    </div>
+                </div>
+            </li>
+             <li class="item-line" style="margin-top: 60px">
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">萝卜驾到客户、司机、后台</a>
+                    </div>
+                    <div class="project-desc">
+                        萝卜代驾小程序与后台, uniapp,vue2 技术栈
+                    </div>
+                </div>
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">刘月庭中医诊所小程序</a>
+                    </div>
+                    <div class="project-desc">
+                        刘月庭中医诊所，uniapp vue2技术栈
+                    </div>
+                </div>
+            </li>
+            <li class="item-line" style="margin-top: 60px">
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">算力平台</a>
+                    </div>
+                    <div class="project-desc">
+                       MyBit算力平台APP, uniapp,vue3,pinia 技术栈
+                    </div>
+                </div>
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">萝卜加油代理后台</a>
+                    </div>
+                    <div class="project-desc">
+                       vite、Vue3、element-plus、pinia、axios技术栈
                     </div>
                 </div>
             </li>
