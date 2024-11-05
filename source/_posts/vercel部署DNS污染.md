@@ -15,7 +15,7 @@ link: /posts/vercel部署.html
 
 **添加解析地址：**
 
-![添加DNS解析](https://img.zphl.top/blog/articleImg/1.png)
+![添加DNS解析](https://img.lzphl.top/blog/articleImg/1.png)
 
 **官方提供解析地址不稳定，部分省份或者运营商网络有时会出现无法访问的情况**
 
