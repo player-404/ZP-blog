@@ -72,8 +72,7 @@ react 组件名称首字母大写，其次组件只能返回一个根元素，�
 function Pizza() {
     return (
         <div>
-                        <h1>this is a pizza menu</h1>            <p>this is a pizza content</p>     
-             {" "}
+            <h1>this is a pizza menu</h1> <p>this is a pizza content</p>
         </div>
     );
 }
@@ -81,7 +80,7 @@ function Pizza() {
 function App() {
     return (
         <div className="App">
-                        <Pizza /> // 使用组件        {" "}
+            <Pizza /> // 使用组件
         </div>
     );
 }
@@ -95,13 +94,13 @@ function App() {
 
 ### 内联样式
 
-react 的内联样式写在 `{ }` 中，传入对象，不可直接写字符串，`{}` 也可再 jsx 中写逻辑，与 Vue 中的 `{{ }}` 十分相似，区别在于少了一个括号
+react 的内联样式写在 `{ }` 中，传入对象，不可直接写字符串，`{}` 也可在 jsx 中写逻辑，与 Vue 中的 `{{ }}` 十分相似，区别在于少了一个括号
 
 ```jsx
 function Pizza() {
     return (
         <div>
-                        <p className="text">this is a pizza content</p>       {" "}
+            <p className="text">this is a pizza content</p>
         </div>
     );
 }
@@ -117,7 +116,7 @@ import "./App.css";
 function Pizza() {
     return (
         <div>
-                        <p className="text">this is a pizza content</p>       {" "}
+            <p className="text">this is a pizza content</p>
         </div>
     );
 }
@@ -139,7 +138,7 @@ function Pizza() {
 function App() {
     return (
         <div className="App">
-                        <Pizza title="锄禾日当午111" />       {" "}
+            <Pizza title="锄禾日当午111" />
         </div>
     );
 }
@@ -174,6 +173,7 @@ export function Info(props) {
       text: "精通软件卸载",
     },
   ];
+  // 创建列表
   const tagList = lists.map((item, index) => (
     <Tag key={index} bg={item.bg} text={item.text} />
   ));
@@ -181,6 +181,7 @@ export function Info(props) {
     <div className="info-con">
       <div className="head-title">{props.title}</div>
       <p>{props.desc}</p>
+      {/* 使用列表 */}
       <div className="bot">{tagList}</div>
     </div>
   );
@@ -213,7 +214,6 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        {" "}
         // 启用 react 严格模式
         <App />
     </React.StrictMode>
