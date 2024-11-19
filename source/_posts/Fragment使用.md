@@ -4,7 +4,7 @@ date: 2024-11-19 22:00:20
 tags: - 前端
     - react
 categories: - [前端, react]
-index_img: https://img.lzphl.top/blog/articleImg/vercel.webp
+index_img: https://img.lzphl.top/blog/articleImg/react.jpeg
 link: /posts/react-fragment.html
 excerpt: react 中的 fragment 简单介绍
 ---
