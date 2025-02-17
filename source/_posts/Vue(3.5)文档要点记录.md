@@ -163,3 +163,80 @@ function submitForm(email, password) {
 }
 </script>
 ```
+
+### 组件
+
+#### 组件名格式
+
+组件名使用 PascalCase 格式
+
+
+
+### 组件的 v-model
+
+子组件使用 defineModel即可在父组件使用 v-model绑定数据
+
+```vue
+//子组件
+<script setup>
+const model = defineModel('model')
+</script>
+
+<template>
+	<input v-model="model" />
+</template>
+  
+//父组件
+<components v-model="test" />
+
+```
+
+上面的写法等于：
+
+```vue
+<script>
+	const props = defineProps('modelValue');
+  const emit = defineEmits('update:modelValue')
+</script>
+```
+
+
+
+### 透传Attribute
+
+#### 访问透传attribute
+
+使用 useAttrs 即可访问透传Attribute
+
+```vue
+<script setup>
+  import {useAttrs} from 'vue'
+const arrts = useAttrs();
+</script>
+```
+
+
+
+### 插槽
+
+#### 作用于插槽
+
+在插槽中绑定的属性，在组件中可以访问到
+
+```vue
+<template>
+	<div>
+    <slot name="test" :text="123"></slot>
+  </div>
+</template>
+
+//使用
+<component>
+<template #test="scope">
+	<div>
+    {{scope.test}} //123
+  </div>
+</template>
+</component>
+```
+
