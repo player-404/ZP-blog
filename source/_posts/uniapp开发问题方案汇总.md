@@ -8,7 +8,7 @@ categories:
     - [uniapp]
 index_img: https://img.lzphl.top/blog/articleImg/uniapp.jpeg
 banner_img: https://img.lzphl.top/blog/bg/bg-25-1.jpg
-link: /posts/git-resolve.html
+link: /posts/uniapp-resolve.html
 excerpt: uniapp 开发记录
 ---
 
