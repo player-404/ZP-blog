@@ -9,7 +9,7 @@ categories:
 index_img: https://img.lzphl.top/blog/articleImg/uniapp.jpeg
 banner_img: https://img.lzphl.top/blog/bg/bg-25-1.jpg
 link: /posts/git-resolve.html
-excerpt: git 问题汇总
+excerpt: uniapp 开发记录
 ---
 
 ### 状态栏高度
