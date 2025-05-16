@@ -224,6 +224,30 @@ layout: about
                     </div>
                 </div>
             </li>
+             <li class="item-line" style="margin-top: 60px">
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">道县水利大屏</a>
+                    </div>
+                    <div class="project-desc">
+                       湖南道县水利局大屏项目
+                    </div>
+                </div>
+                <div class="item-con">
+                    <div class="project-cover">
+                        <img src="img/project.png" alt="pic"/>
+                    </div>
+                    <div class="project-name">
+                        <a href="#">道县水利后台管理</a>
+                    </div>
+                    <div class="project-desc">
+                       湖南道县后台
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
 </body>
