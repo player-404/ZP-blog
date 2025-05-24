@@ -12,4 +12,4 @@ permalink: /posts/nestxmind.html
 excerpt: nestjs思维导图
 ---
 
-<img src='https://img.lzphl.top/blog/xmind/nest.png' stylee="width:100%" controls/>
+<img src='https://img.lzphl.top/blog/xmind/nest.png' stylee="width:100%" />
